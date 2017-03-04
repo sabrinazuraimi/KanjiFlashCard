@@ -62,21 +62,24 @@ class AzureMicrosoftTranslator: NSObject {
       block(nil, nil, AzureMicrosoftTranslatorError.APIKeyIsNotInitialized as NSError)
       return
     }
-    
+    print("getToken")
     getToken(key: key) { (data, response, error) in
       if let error = error {
+        print("1111")
         block(nil, response, error)
         return
       }
       
       guard let data = data, let token = NSString(data: data as Data, encoding: String.Encoding.utf8.rawValue) as? String else {
+        print("aa")
         block(nil, response, AzureMicrosoftTranslatorError.TokenParseError as NSError)
         return
       }
       
       msTranslate(token: token, translate: text, toLang: lang) { (data, response, error) in
-        
+        print("msTranslate")
         if let error = error {
+          print("error")
           block(nil, response, error)
           return
         }
@@ -84,11 +87,11 @@ class AzureMicrosoftTranslator: NSObject {
         guard let data = data,
           let xml = NSString(data: data, encoding: String.Encoding.utf8.rawValue),
           let result = extract(text: xml) else {
-            
+            print("called")
             block(nil, response, AzureMicrosoftTranslatorError.TextParseError as NSError)
             return
         }
-        
+        print(xml)
         block(result, response, nil)
       }
     }
