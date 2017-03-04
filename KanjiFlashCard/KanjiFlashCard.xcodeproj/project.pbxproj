@@ -13,6 +13,9 @@
 		2EE1082D1E6A5FDF003BDC3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EE1082C1E6A5FDF003BDC3F /* Assets.xcassets */; };
 		2EE108301E6A5FDF003BDC3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EE1082E1E6A5FDF003BDC3F /* LaunchScreen.storyboard */; };
 		2EE1083B1E6A5FE0003BDC3F /* KanjiFlashCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE1083A1E6A5FE0003BDC3F /* KanjiFlashCardTests.swift */; };
+		EB0C7C1C1E6A64A400660F3C /* AzureMicrosoftTranslator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0C7C1B1E6A64A400660F3C /* AzureMicrosoftTranslator.swift */; };
+		EB0C7C1E1E6A665500660F3C /* SubStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB0C7C1D1E6A665500660F3C /* SubStoryboard.storyboard */; };
+		EB0C7C221E6A66A700660F3C /* RecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0C7C211E6A66A700660F3C /* RecognitionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		2EE108361E6A5FE0003BDC3F /* KanjiFlashCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KanjiFlashCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EE1083A1E6A5FE0003BDC3F /* KanjiFlashCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiFlashCardTests.swift; sourceTree = "<group>"; };
 		2EE1083C1E6A5FE0003BDC3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB0C7C1B1E6A64A400660F3C /* AzureMicrosoftTranslator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AzureMicrosoftTranslator.swift; sourceTree = "<group>"; };
+		EB0C7C1D1E6A665500660F3C /* SubStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SubStoryboard.storyboard; sourceTree = "<group>"; };
+		EB0C7C211E6A66A700660F3C /* RecognitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecognitionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,9 @@
 				2EE1082C1E6A5FDF003BDC3F /* Assets.xcassets */,
 				2EE1082E1E6A5FDF003BDC3F /* LaunchScreen.storyboard */,
 				2EE108311E6A5FDF003BDC3F /* Info.plist */,
+				EB0C7C1B1E6A64A400660F3C /* AzureMicrosoftTranslator.swift */,
+				EB0C7C1D1E6A665500660F3C /* SubStoryboard.storyboard */,
+				EB0C7C211E6A66A700660F3C /* RecognitionViewController.swift */,
 			);
 			path = KanjiFlashCard;
 			sourceTree = "<group>";
@@ -146,6 +155,7 @@
 				TargetAttributes = {
 					2EE108211E6A5FDF003BDC3F = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9YYZRW8KFD;
 						ProvisioningStyle = Automatic;
 					};
 					2EE108351E6A5FE0003BDC3F = {
@@ -181,6 +191,7 @@
 			files = (
 				2EE108301E6A5FDF003BDC3F /* LaunchScreen.storyboard in Resources */,
 				2EE1082D1E6A5FDF003BDC3F /* Assets.xcassets in Resources */,
+				EB0C7C1E1E6A665500660F3C /* SubStoryboard.storyboard in Resources */,
 				2EE1082B1E6A5FDF003BDC3F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,7 +210,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB0C7C1C1E6A64A400660F3C /* AzureMicrosoftTranslator.swift in Sources */,
 				2EE108281E6A5FDF003BDC3F /* ViewController.swift in Sources */,
+				EB0C7C221E6A66A700660F3C /* RecognitionViewController.swift in Sources */,
 				2EE108261E6A5FDF003BDC3F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +352,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9YYZRW8KFD;
 				INFOPLIST_FILE = KanjiFlashCard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sabrina.KanjiFlashCard;
@@ -351,6 +365,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9YYZRW8KFD;
 				INFOPLIST_FILE = KanjiFlashCard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sabrina.KanjiFlashCard;
@@ -406,6 +421,7 @@
 				2EE108411E6A5FE0003BDC3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2EE108421E6A5FE0003BDC3F /* Build configuration list for PBXNativeTarget "KanjiFlashCardTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +430,7 @@
 				2EE108441E6A5FE0003BDC3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
