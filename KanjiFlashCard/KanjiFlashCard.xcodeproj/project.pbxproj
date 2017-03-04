@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EE108261E6A5FDF003BDC3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE108251E6A5FDF003BDC3F /* AppDelegate.swift */; };
+		2EE108281E6A5FDF003BDC3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE108271E6A5FDF003BDC3F /* ViewController.swift */; };
+		2EE1082B1E6A5FDF003BDC3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EE108291E6A5FDF003BDC3F /* Main.storyboard */; };
+		2EE1082D1E6A5FDF003BDC3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EE1082C1E6A5FDF003BDC3F /* Assets.xcassets */; };
+		2EE108301E6A5FDF003BDC3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EE1082E1E6A5FDF003BDC3F /* LaunchScreen.storyboard */; };
+		2EE1083B1E6A5FE0003BDC3F /* KanjiFlashCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE1083A1E6A5FE0003BDC3F /* KanjiFlashCardTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2EE108371E6A5FE0003BDC3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EE1081A1E6A5FDF003BDC3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EE108211E6A5FDF003BDC3F;
+			remoteInfo = KanjiFlashCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2EE108221E6A5FDF003BDC3F /* KanjiFlashCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KanjiFlashCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EE108251E6A5FDF003BDC3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2EE108271E6A5FDF003BDC3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2EE1082A1E6A5FDF003BDC3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2EE1082C1E6A5FDF003BDC3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2EE1082F1E6A5FDF003BDC3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2EE108311E6A5FDF003BDC3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EE108361E6A5FE0003BDC3F /* KanjiFlashCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KanjiFlashCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EE1083A1E6A5FE0003BDC3F /* KanjiFlashCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiFlashCardTests.swift; sourceTree = "<group>"; };
+		2EE1083C1E6A5FE0003BDC3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EE1081F1E6A5FDF003BDC3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EE108331E6A5FE0003BDC3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EE108191E6A5FDF003BDC3F = {
+			isa = PBXGroup;
+			children = (
+				2EE108241E6A5FDF003BDC3F /* KanjiFlashCard */,
+				2EE108391E6A5FE0003BDC3F /* KanjiFlashCardTests */,
+				2EE108231E6A5FDF003BDC3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2EE108231E6A5FDF003BDC3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EE108221E6A5FDF003BDC3F /* KanjiFlashCard.app */,
+				2EE108361E6A5FE0003BDC3F /* KanjiFlashCardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EE108241E6A5FDF003BDC3F /* KanjiFlashCard */ = {
+			isa = PBXGroup;
+			children = (
+				2EE108251E6A5FDF003BDC3F /* AppDelegate.swift */,
+				2EE108271E6A5FDF003BDC3F /* ViewController.swift */,
+				2EE108291E6A5FDF003BDC3F /* Main.storyboard */,
+				2EE1082C1E6A5FDF003BDC3F /* Assets.xcassets */,
+				2EE1082E1E6A5FDF003BDC3F /* LaunchScreen.storyboard */,
+				2EE108311E6A5FDF003BDC3F /* Info.plist */,
+			);
+			path = KanjiFlashCard;
+			sourceTree = "<group>";
+		};
+		2EE108391E6A5FE0003BDC3F /* KanjiFlashCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				2EE1083A1E6A5FE0003BDC3F /* KanjiFlashCardTests.swift */,
+				2EE1083C1E6A5FE0003BDC3F /* Info.plist */,
+			);
+			path = KanjiFlashCardTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EE108211E6A5FDF003BDC3F /* KanjiFlashCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EE1083F1E6A5FE0003BDC3F /* Build configuration list for PBXNativeTarget "KanjiFlashCard" */;
+			buildPhases = (
+				2EE1081E1E6A5FDF003BDC3F /* Sources */,
+				2EE1081F1E6A5FDF003BDC3F /* Frameworks */,
+				2EE108201E6A5FDF003BDC3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KanjiFlashCard;
+			productName = KanjiFlashCard;
+			productReference = 2EE108221E6A5FDF003BDC3F /* KanjiFlashCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2EE108351E6A5FE0003BDC3F /* KanjiFlashCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EE108421E6A5FE0003BDC3F /* Build configuration list for PBXNativeTarget "KanjiFlashCardTests" */;
+			buildPhases = (
+				2EE108321E6A5FE0003BDC3F /* Sources */,
+				2EE108331E6A5FE0003BDC3F /* Frameworks */,
+				2EE108341E6A5FE0003BDC3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EE108381E6A5FE0003BDC3F /* PBXTargetDependency */,
+			);
+			name = KanjiFlashCardTests;
+			productName = KanjiFlashCardTests;
+			productReference = 2EE108361E6A5FE0003BDC3F /* KanjiFlashCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EE1081A1E6A5FDF003BDC3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Nur Sabrina binti Zuraimi";
+				TargetAttributes = {
+					2EE108211E6A5FDF003BDC3F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					2EE108351E6A5FE0003BDC3F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2EE108211E6A5FDF003BDC3F;
+					};
+				};
+			};
+			buildConfigurationList = 2EE1081D1E6A5FDF003BDC3F /* Build configuration list for PBXProject "KanjiFlashCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EE108191E6A5FDF003BDC3F;
+			productRefGroup = 2EE108231E6A5FDF003BDC3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EE108211E6A5FDF003BDC3F /* KanjiFlashCard */,
+				2EE108351E6A5FE0003BDC3F /* KanjiFlashCardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EE108201E6A5FDF003BDC3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EE108301E6A5FDF003BDC3F /* LaunchScreen.storyboard in Resources */,
+				2EE1082D1E6A5FDF003BDC3F /* Assets.xcassets in Resources */,
+				2EE1082B1E6A5FDF003BDC3F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EE108341E6A5FE0003BDC3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EE1081E1E6A5FDF003BDC3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EE108281E6A5FDF003BDC3F /* ViewController.swift in Sources */,
+				2EE108261E6A5FDF003BDC3F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EE108321E6A5FE0003BDC3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EE1083B1E6A5FE0003BDC3F /* KanjiFlashCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2EE108381E6A5FE0003BDC3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EE108211E6A5FDF003BDC3F /* KanjiFlashCard */;
+			targetProxy = 2EE108371E6A5FE0003BDC3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2EE108291E6A5FDF003BDC3F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EE1082A1E6A5FDF003BDC3F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2EE1082E1E6A5FDF003BDC3F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EE1082F1E6A5FDF003BDC3F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2EE1083D1E6A5FE0003BDC3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2EE1083E1E6A5FE0003BDC3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EE108401E6A5FE0003BDC3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KanjiFlashCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sabrina.KanjiFlashCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2EE108411E6A5FE0003BDC3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KanjiFlashCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sabrina.KanjiFlashCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2EE108431E6A5FE0003BDC3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KanjiFlashCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sabrina.KanjiFlashCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KanjiFlashCard.app/KanjiFlashCard";
+			};
+			name = Debug;
+		};
+		2EE108441E6A5FE0003BDC3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KanjiFlashCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sabrina.KanjiFlashCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KanjiFlashCard.app/KanjiFlashCard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EE1081D1E6A5FDF003BDC3F /* Build configuration list for PBXProject "KanjiFlashCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EE1083D1E6A5FE0003BDC3F /* Debug */,
+				2EE1083E1E6A5FE0003BDC3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EE1083F1E6A5FE0003BDC3F /* Build configuration list for PBXNativeTarget "KanjiFlashCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EE108401E6A5FE0003BDC3F /* Debug */,
+				2EE108411E6A5FE0003BDC3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2EE108421E6A5FE0003BDC3F /* Build configuration list for PBXNativeTarget "KanjiFlashCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EE108431E6A5FE0003BDC3F /* Debug */,
+				2EE108441E6A5FE0003BDC3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EE1081A1E6A5FDF003BDC3F /* Project object */;
+}
