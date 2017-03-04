@@ -16,6 +16,7 @@
 		EB0C7C1C1E6A64A400660F3C /* AzureMicrosoftTranslator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0C7C1B1E6A64A400660F3C /* AzureMicrosoftTranslator.swift */; };
 		EB0C7C1E1E6A665500660F3C /* SubStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB0C7C1D1E6A665500660F3C /* SubStoryboard.storyboard */; };
 		EB0C7C221E6A66A700660F3C /* RecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0C7C211E6A66A700660F3C /* RecognitionViewController.swift */; };
+		EB0C7C251E6A7D3E00660F3C /* AzureMicrosoftTranslateError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0C7C241E6A7D3E00660F3C /* AzureMicrosoftTranslateError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		EB0C7C1B1E6A64A400660F3C /* AzureMicrosoftTranslator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AzureMicrosoftTranslator.swift; sourceTree = "<group>"; };
 		EB0C7C1D1E6A665500660F3C /* SubStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SubStoryboard.storyboard; sourceTree = "<group>"; };
 		EB0C7C211E6A66A700660F3C /* RecognitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecognitionViewController.swift; sourceTree = "<group>"; };
+		EB0C7C241E6A7D3E00660F3C /* AzureMicrosoftTranslateError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AzureMicrosoftTranslateError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,13 +85,13 @@
 		2EE108241E6A5FDF003BDC3F /* KanjiFlashCard */ = {
 			isa = PBXGroup;
 			children = (
+				EB0C7C231E6A7D0800660F3C /* api-client */,
 				2EE108251E6A5FDF003BDC3F /* AppDelegate.swift */,
 				2EE108271E6A5FDF003BDC3F /* ViewController.swift */,
 				2EE108291E6A5FDF003BDC3F /* Main.storyboard */,
 				2EE1082C1E6A5FDF003BDC3F /* Assets.xcassets */,
 				2EE1082E1E6A5FDF003BDC3F /* LaunchScreen.storyboard */,
 				2EE108311E6A5FDF003BDC3F /* Info.plist */,
-				EB0C7C1B1E6A64A400660F3C /* AzureMicrosoftTranslator.swift */,
 				EB0C7C1D1E6A665500660F3C /* SubStoryboard.storyboard */,
 				EB0C7C211E6A66A700660F3C /* RecognitionViewController.swift */,
 			);
@@ -103,6 +105,15 @@
 				2EE1083C1E6A5FE0003BDC3F /* Info.plist */,
 			);
 			path = KanjiFlashCardTests;
+			sourceTree = "<group>";
+		};
+		EB0C7C231E6A7D0800660F3C /* api-client */ = {
+			isa = PBXGroup;
+			children = (
+				EB0C7C1B1E6A64A400660F3C /* AzureMicrosoftTranslator.swift */,
+				EB0C7C241E6A7D3E00660F3C /* AzureMicrosoftTranslateError.swift */,
+			);
+			name = "api-client";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +224,7 @@
 				EB0C7C1C1E6A64A400660F3C /* AzureMicrosoftTranslator.swift in Sources */,
 				2EE108281E6A5FDF003BDC3F /* ViewController.swift in Sources */,
 				EB0C7C221E6A66A700660F3C /* RecognitionViewController.swift in Sources */,
+				EB0C7C251E6A7D3E00660F3C /* AzureMicrosoftTranslateError.swift in Sources */,
 				2EE108261E6A5FDF003BDC3F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
