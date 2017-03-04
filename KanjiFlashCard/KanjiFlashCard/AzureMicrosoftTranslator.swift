@@ -5,14 +5,14 @@ class AzureMicrosoftTranslator: NSObject {
   static let sharedTranslator = AzureMicrosoftTranslator()
   
   // Please remember to initialize
-  var key: String?
-  
+  let key = "12446ed2d0dc485aa0285dd51cf8d70b"
+
   func translate(text: String, toLang lang: String, completion block: @escaping (String?, URLResponse?, Error?) -> Void) {
     
-    guard let key = key else {
-      block(nil, nil, AzureMicrosoftTranslatorError.APIKeyIsNotInitialized as NSError)
-      return
-    }
+//    guard let key = key else {
+//      block(nil, nil, AzureMicrosoftTranslatorError.APIKeyIsNotInitialized as NSError)
+//      return
+//    }
     print("getToken")
     getToken(key: key) { (data, response, error) in
       if let error = error {

@@ -8,15 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		2EE108261E6A5FDF003BDC3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE108251E6A5FDF003BDC3F /* AppDelegate.swift */; };
-		2EE108281E6A5FDF003BDC3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE108271E6A5FDF003BDC3F /* ViewController.swift */; };
-		2EE1082B1E6A5FDF003BDC3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EE108291E6A5FDF003BDC3F /* Main.storyboard */; };
 		2EE1082D1E6A5FDF003BDC3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EE1082C1E6A5FDF003BDC3F /* Assets.xcassets */; };
 		2EE108301E6A5FDF003BDC3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EE1082E1E6A5FDF003BDC3F /* LaunchScreen.storyboard */; };
 		2EE1083B1E6A5FE0003BDC3F /* KanjiFlashCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE1083A1E6A5FE0003BDC3F /* KanjiFlashCardTests.swift */; };
+		A1781A194615D86BBE65AACD /* Pods_KanjiFlashCardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78F8CFABD7CF66B828390C72 /* Pods_KanjiFlashCardTests.framework */; };
 		EB0C7C1C1E6A64A400660F3C /* AzureMicrosoftTranslator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0C7C1B1E6A64A400660F3C /* AzureMicrosoftTranslator.swift */; };
 		EB0C7C1E1E6A665500660F3C /* SubStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB0C7C1D1E6A665500660F3C /* SubStoryboard.storyboard */; };
 		EB0C7C221E6A66A700660F3C /* RecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0C7C211E6A66A700660F3C /* RecognitionViewController.swift */; };
 		EB0C7C251E6A7D3E00660F3C /* AzureMicrosoftTranslateError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0C7C241E6A7D3E00660F3C /* AzureMicrosoftTranslateError.swift */; };
+		EB0C7C291E6A861900660F3C /* RecognitionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0C7C281E6A861900660F3C /* RecognitionTableViewCell.swift */; };
+		EB0C7C2B1E6A905D00660F3C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB0C7C2A1E6A905D00660F3C /* GoogleService-Info.plist */; };
+		F9E48A912AC35D282B471829 /* Pods_KanjiFlashCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA1ACE96E12554A5AA96C43 /* Pods_KanjiFlashCard.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,20 +32,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FA1ACE96E12554A5AA96C43 /* Pods_KanjiFlashCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KanjiFlashCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EE108221E6A5FDF003BDC3F /* KanjiFlashCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KanjiFlashCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EE108251E6A5FDF003BDC3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2EE108271E6A5FDF003BDC3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2EE1082A1E6A5FDF003BDC3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2EE1082C1E6A5FDF003BDC3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EE1082F1E6A5FDF003BDC3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2EE108311E6A5FDF003BDC3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EE108361E6A5FE0003BDC3F /* KanjiFlashCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KanjiFlashCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EE1083A1E6A5FE0003BDC3F /* KanjiFlashCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiFlashCardTests.swift; sourceTree = "<group>"; };
 		2EE1083C1E6A5FE0003BDC3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78F8CFABD7CF66B828390C72 /* Pods_KanjiFlashCardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KanjiFlashCardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92EEAB937F12A0EAB7C54657 /* Pods-KanjiFlashCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KanjiFlashCard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KanjiFlashCard/Pods-KanjiFlashCard.debug.xcconfig"; sourceTree = "<group>"; };
+		D4440CCC86D40B1A869596A5 /* Pods-KanjiFlashCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KanjiFlashCard.release.xcconfig"; path = "Pods/Target Support Files/Pods-KanjiFlashCard/Pods-KanjiFlashCard.release.xcconfig"; sourceTree = "<group>"; };
+		E6704893B9C6DE85603FC9DF /* Pods-KanjiFlashCardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KanjiFlashCardTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KanjiFlashCardTests/Pods-KanjiFlashCardTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EB0C7C1B1E6A64A400660F3C /* AzureMicrosoftTranslator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AzureMicrosoftTranslator.swift; sourceTree = "<group>"; };
 		EB0C7C1D1E6A665500660F3C /* SubStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SubStoryboard.storyboard; sourceTree = "<group>"; };
 		EB0C7C211E6A66A700660F3C /* RecognitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecognitionViewController.swift; sourceTree = "<group>"; };
 		EB0C7C241E6A7D3E00660F3C /* AzureMicrosoftTranslateError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AzureMicrosoftTranslateError.swift; sourceTree = "<group>"; };
+		EB0C7C281E6A861900660F3C /* RecognitionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecognitionTableViewCell.swift; sourceTree = "<group>"; };
+		EB0C7C2A1E6A905D00660F3C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F6037A5B52EBAF1BF56AB1DC /* Pods-KanjiFlashCardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KanjiFlashCardTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KanjiFlashCardTests/Pods-KanjiFlashCardTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9E48A912AC35D282B471829 /* Pods_KanjiFlashCard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1781A194615D86BBE65AACD /* Pods_KanjiFlashCardTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,9 +77,12 @@
 		2EE108191E6A5FDF003BDC3F = {
 			isa = PBXGroup;
 			children = (
+				EB0C7C2A1E6A905D00660F3C /* GoogleService-Info.plist */,
 				2EE108241E6A5FDF003BDC3F /* KanjiFlashCard */,
 				2EE108391E6A5FE0003BDC3F /* KanjiFlashCardTests */,
 				2EE108231E6A5FDF003BDC3F /* Products */,
+				5922222028F37E16FA14990E /* Pods */,
+				D8CA7CF50E9D12FDD38CE78B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,13 +100,12 @@
 			children = (
 				EB0C7C231E6A7D0800660F3C /* api-client */,
 				2EE108251E6A5FDF003BDC3F /* AppDelegate.swift */,
-				2EE108271E6A5FDF003BDC3F /* ViewController.swift */,
-				2EE108291E6A5FDF003BDC3F /* Main.storyboard */,
 				2EE1082C1E6A5FDF003BDC3F /* Assets.xcassets */,
 				2EE1082E1E6A5FDF003BDC3F /* LaunchScreen.storyboard */,
 				2EE108311E6A5FDF003BDC3F /* Info.plist */,
 				EB0C7C1D1E6A665500660F3C /* SubStoryboard.storyboard */,
 				EB0C7C211E6A66A700660F3C /* RecognitionViewController.swift */,
+				EB0C7C281E6A861900660F3C /* RecognitionTableViewCell.swift */,
 			);
 			path = KanjiFlashCard;
 			sourceTree = "<group>";
@@ -105,6 +117,26 @@
 				2EE1083C1E6A5FE0003BDC3F /* Info.plist */,
 			);
 			path = KanjiFlashCardTests;
+			sourceTree = "<group>";
+		};
+		5922222028F37E16FA14990E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92EEAB937F12A0EAB7C54657 /* Pods-KanjiFlashCard.debug.xcconfig */,
+				D4440CCC86D40B1A869596A5 /* Pods-KanjiFlashCard.release.xcconfig */,
+				E6704893B9C6DE85603FC9DF /* Pods-KanjiFlashCardTests.debug.xcconfig */,
+				F6037A5B52EBAF1BF56AB1DC /* Pods-KanjiFlashCardTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D8CA7CF50E9D12FDD38CE78B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FA1ACE96E12554A5AA96C43 /* Pods_KanjiFlashCard.framework */,
+				78F8CFABD7CF66B828390C72 /* Pods_KanjiFlashCardTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		EB0C7C231E6A7D0800660F3C /* api-client */ = {
@@ -123,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2EE1083F1E6A5FE0003BDC3F /* Build configuration list for PBXNativeTarget "KanjiFlashCard" */;
 			buildPhases = (
+				20447E661404D558EFEB4E2F /* [CP] Check Pods Manifest.lock */,
 				2EE1081E1E6A5FDF003BDC3F /* Sources */,
 				2EE1081F1E6A5FDF003BDC3F /* Frameworks */,
 				2EE108201E6A5FDF003BDC3F /* Resources */,
+				CDE1102ED21961E5BAB01EB4 /* [CP] Embed Pods Frameworks */,
+				6718C9DCC811E118F5342872 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -140,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2EE108421E6A5FE0003BDC3F /* Build configuration list for PBXNativeTarget "KanjiFlashCardTests" */;
 			buildPhases = (
+				94EAF72DE12E76AD096D4AEB /* [CP] Check Pods Manifest.lock */,
 				2EE108321E6A5FE0003BDC3F /* Sources */,
 				2EE108331E6A5FE0003BDC3F /* Frameworks */,
 				2EE108341E6A5FE0003BDC3F /* Resources */,
+				E3371667B7553E1916E5E7F7 /* [CP] Embed Pods Frameworks */,
+				584245EFF480BB018835E5D4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,10 +238,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB0C7C2B1E6A905D00660F3C /* GoogleService-Info.plist in Resources */,
 				2EE108301E6A5FDF003BDC3F /* LaunchScreen.storyboard in Resources */,
 				2EE1082D1E6A5FDF003BDC3F /* Assets.xcassets in Resources */,
 				EB0C7C1E1E6A665500660F3C /* SubStoryboard.storyboard in Resources */,
-				2EE1082B1E6A5FDF003BDC3F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,14 +254,107 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		20447E661404D558EFEB4E2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		584245EFF480BB018835E5D4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KanjiFlashCardTests/Pods-KanjiFlashCardTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6718C9DCC811E118F5342872 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KanjiFlashCard/Pods-KanjiFlashCard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94EAF72DE12E76AD096D4AEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CDE1102ED21961E5BAB01EB4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KanjiFlashCard/Pods-KanjiFlashCard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3371667B7553E1916E5E7F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KanjiFlashCardTests/Pods-KanjiFlashCardTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2EE1081E1E6A5FDF003BDC3F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EB0C7C1C1E6A64A400660F3C /* AzureMicrosoftTranslator.swift in Sources */,
-				2EE108281E6A5FDF003BDC3F /* ViewController.swift in Sources */,
 				EB0C7C221E6A66A700660F3C /* RecognitionViewController.swift in Sources */,
+				EB0C7C291E6A861900660F3C /* RecognitionTableViewCell.swift in Sources */,
 				EB0C7C251E6A7D3E00660F3C /* AzureMicrosoftTranslateError.swift in Sources */,
 				2EE108261E6A5FDF003BDC3F /* AppDelegate.swift in Sources */,
 			);
@@ -248,14 +379,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2EE108291E6A5FDF003BDC3F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2EE1082A1E6A5FDF003BDC3F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2EE1082E1E6A5FDF003BDC3F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -362,6 +485,7 @@
 		};
 		2EE108401E6A5FE0003BDC3F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92EEAB937F12A0EAB7C54657 /* Pods-KanjiFlashCard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9YYZRW8KFD;
@@ -375,6 +499,7 @@
 		};
 		2EE108411E6A5FE0003BDC3F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4440CCC86D40B1A869596A5 /* Pods-KanjiFlashCard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9YYZRW8KFD;
@@ -388,6 +513,7 @@
 		};
 		2EE108431E6A5FE0003BDC3F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6704893B9C6DE85603FC9DF /* Pods-KanjiFlashCardTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -402,6 +528,7 @@
 		};
 		2EE108441E6A5FE0003BDC3F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6037A5B52EBAF1BF56AB1DC /* Pods-KanjiFlashCardTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
